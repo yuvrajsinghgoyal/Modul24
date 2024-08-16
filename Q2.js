@@ -1,4 +1,13 @@
-function MulNumbers(n1,n2){
-    return n1*n2;
+
+
+function manst(inp,callback){
+    const manst=inp.toUpperCase();
+    callback(manst);
 }
-console.log(MulNumbers(6,10));
+
+function logString(manst){
+    console.log(`manipulated ${manst}`)
+}
+
+
+manst(logString)
